@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(weeb.jpg);
+}
+
+#wrap{
+    width: 250px;
+    float: right;
+    margin-right: 200px;
+    height: 25vh;
+    margin-top: 25vh;
+}
+
+#wrap input {
+
+    position: relative;
+    margin: 0px;
+}
+
+input[type=submit]{
+    border: none;
+    height: 30px;  
+    width: 100px;
+    float: right;
+}
+
+input[type=text], input[type=password]{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+#title{
+    font-size: 20px;
+}
